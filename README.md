@@ -1,2 +1,2 @@
 # GeekPython
-Homework tasks
+My hometasks for Geekhub Python
