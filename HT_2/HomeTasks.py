@@ -21,3 +21,15 @@ def season2(n):
 def season3(n):
     #season(1-12)
     return 'Wrong Number!'
+
+#-------------------------------------#
+
+def task2(x, *args):
+    #task2(3, 1)
+    if args:
+        return x + sum(args)
+    else:
+        return x**2
+
+#-------------------------------------#
+
