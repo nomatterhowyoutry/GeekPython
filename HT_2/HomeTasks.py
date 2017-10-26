@@ -50,3 +50,14 @@ def func4(x):
     print(func3(func2(func1(x))))
 
 #-------------------------------------#
+
+def task4(x, y):
+    if x > y:
+        print(x, 'greater than', y, 'for', x-y)
+    elif y > x:
+        print(y, 'greater than',x , 'for', y-x)
+    else:
+        print(x, 'is equal to', y)
+
+#-------------------------------------#
+
