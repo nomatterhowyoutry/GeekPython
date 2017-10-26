@@ -77,3 +77,46 @@ def task5(s):
         print(s * 100)
 
 #-------------------------------------#
+
+import random
+
+def tell_joke():
+    Jokes = [
+    '''Doctor: "I'm sorry but you suffer from a terminal illness and have only 10 to live."
+
+Patient: "What do you mean, 10? 10 what? Months? Weeks?!"
+
+Doctor: "Nine."
+    ''',
+    '''A man asks a farmer near a field,
+“Sorry sir, would you mind if I crossed your field instead of going around it? You see, I have to catch the 4:23 train.”
+
+The farmer says, “Sure, go right ahead. And if my bull sees you, you’ll even catch the 4:11 one.”
+    ''',
+    '''Anton, do you think I’m a bad mother?
+
+My name is Paul.
+    ''',
+    '''My dog used to chase people on a bike a lot. It got so bad, finally I had to take his bike away.
+    ''',
+    '''What is the difference between a snowman and a snowwoman?
+-
+Snowballs.
+    ''',
+    '''"Mom, where do tampons go?"
+
+"Where the babies come from, darling."
+
+"In the stork?"
+    ''']
+
+    print(Jokes[random.randint(0,len(Jokes) - 1)])
+
+from datetime import datetime
+
+def countdown_to_course():
+    print(datetime(2017, 11, 1) - datetime.now())
+
+fib = lambda x : 1 if x <= 2 else fib(x - 1) + fib(x - 2)
+
+#-------------------------------------#
