@@ -33,3 +33,20 @@ def task2(x, *args):
 
 #-------------------------------------#
 
+def func1(x):
+    if x > 0:
+        return x * func1(x - 1)
+    else:
+        return 1
+
+def func2(x):
+    return (x/3.14)*2
+
+def func3(x):
+    return 'Hello World!' * int(x)
+
+def func4(x):
+    #Do not use big numbers
+    print(func3(func2(func1(x))))
+
+#-------------------------------------#
