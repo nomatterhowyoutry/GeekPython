@@ -61,3 +61,19 @@ def task4(x, y):
 
 #-------------------------------------#
 
+import re
+
+def task5(s):
+    l = len(s)
+    if l < 30:
+        result = re.sub(r'[0-9]+', '', s)
+        numbers = re.findall(r'[0-9]+', s)
+        print(sum([int(i) for i in numbers]), result)
+    elif l > 50:
+        print(len(re.sub(r'[0-9]+', '', s)))
+    elif 30 <= l <= 50:
+        print(len(re.sub(r'[0-9]+', '', s)), len(re.findall(r'[0-9]+', s)))
+    else:
+        print(s * 100)
+
+#-------------------------------------#

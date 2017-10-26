@@ -7,7 +7,7 @@
 
 a = input()
 #a = '1, 5, 7, 23'
-list = a.split(', ')
+list = list(a.split(', '))
 tuple = tuple(list)
 print('List :', list)
 print('Tuple : ', tuple)
