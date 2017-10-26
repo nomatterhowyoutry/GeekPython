@@ -52,6 +52,7 @@ def func4(x):
 #-------------------------------------#
 
 def task4(x, y):
+    #task4(3, 5)
     if x > y:
         print(x, 'greater than', y, 'for', x-y)
     elif y > x:
@@ -64,6 +65,7 @@ def task4(x, y):
 import re
 
 def task5(s):
+    #task5('sldfjoih3ufyh3uifhiownfiug9q83fh')
     l = len(s)
     if l < 30:
         result = re.sub(r'[0-9]+', '', s)
@@ -120,3 +122,16 @@ def countdown_to_course():
 fib = lambda x : 1 if x <= 2 else fib(x - 1) + fib(x - 2)
 
 #-------------------------------------#
+
+def calc(x, op, y):
+    #calc(3, '+', 2)
+    if op == '+':
+        return x + y
+    elif op == '-':
+        return x - y
+    elif op == '*':
+        return x * y
+    elif op == ':':
+        return x/y
+    elif op == '^':
+        return x**y
