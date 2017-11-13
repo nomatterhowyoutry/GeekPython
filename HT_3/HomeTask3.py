@@ -1,9 +1,9 @@
 import random
 import time
 
-len = 10000
-iList = [random.randint(0, 99) for i in range(0, len)]
-fList = [random.uniform(0, 99) for i in range(0, len)]
+len = 100000
+iList1 = iList2 = iList3 = [random.randint(0, 99) for i in range(0, len)]
+fList1 = fList2 = fList3 = [random.uniform(0, 99) for i in range(0, len)]
 
 def Bubble_Sort(A):
     start = time.time()
@@ -14,10 +14,8 @@ def Bubble_Sort(A):
     print('Bubble Sort time: {:.3f} sec'.format(time.time() - start), 'The list is sorted correctly = {}'.format(None == A.sort()))
     return A
 
-Bubble_Sort(iList)
-Bubble_Sort(fList)
-iList = [random.randint(0, 99) for i in range(0, len)]
-fList = [random.uniform(0, 99) for i in range(0, len)]
+Bubble_Sort(iList1)
+Bubble_Sort(fList1)
 
 def Selection_Sort(A):
     start = time.time()
@@ -27,10 +25,8 @@ def Selection_Sort(A):
     print('Selection Sort time: {:.3f} sec'.format(time.time() - start), 'The list is sorted correctly = {}'.format(None == A.sort()))
     return A
 
-Selection_Sort(iList)
-Selection_Sort(fList)
-iList = [random.randint(0, 99) for i in range(0, len)]
-fList = [random.uniform(0, 99) for i in range(0, len)]
+Selection_Sort(iList2)
+Selection_Sort(fList2)
 
 def Insertion_Sort(A):
     start = time.time()
@@ -42,5 +38,5 @@ def Insertion_Sort(A):
     print('Insertion Sort time: {:.3f} sec'.format(time.time() - start), 'The list is sorted correctly = {}'.format(None == A.sort()))
     return A
 
-Insertion_Sort(iList)
-Insertion_Sort(fList)
+Insertion_Sort(iList3)
+Insertion_Sort(fList3)
