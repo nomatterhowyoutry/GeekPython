@@ -1,9 +1,12 @@
 import re
 import csv
+import os
 
+if not os.path.exists('/home/nomatterhowyoutry/Documents/Github/GeekPython/HT_4/reports'):
+	os.mkdir('/home/nomatterhowyoutry/Documents/Github/GeekPython/HT_4/reports')
 pattern = re.compile('(.*\d.-\d.-\d.*\d.:\d.:\d.).*(ERROR|WARNING|CRITICAL) (\pg|\?|\None) (.*)\r')
 file1 = open('openerp-server.log', 'r')
-file2 = open('unique.csv','wb')
+file2 = open('/home/nomatterhowyoutry/Documents/Github/GeekPython/HT_4/reports/unique.csv','wb')
 writer = csv.DictWriter(file2, fieldnames = ('count', 'marker', 'date_time', 'description'))
 writer.writeheader()
 ans = []
