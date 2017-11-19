@@ -13,15 +13,15 @@ start = time.time()
 # Preparing logger parameters
 logger = logging.getLogger("main.py")
 logger.setLevel(logging.INFO)
-fh = logging.FileHandler(log_output)
+fh = logging.FileHandler(folder_name + log_output)
 formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 fh.setFormatter(formatter)
 logger.addHandler(fh)
 logger.info(u'Application started!')
 
 #Creating directory
-if not os.path.isdir(os.path.abspath(os.curdir)+'/results'):
-    os.mkdir('results')
+if os.path.isdir(os.path.abspath(os.curdir)+folder_name):
+    os.mkdir(folder_name)
 
 # Preparing argparser
 parser = argparse.ArgumentParser(
@@ -62,7 +62,7 @@ for i in data[:limit]:
 
 # Creating 'reports.csv'
 logger.info(u'Writing into reports.csv')
-file = open(os.path.abspath(os.curdir)+csv_output, 'w')
+file = open(os.path.abspath(os.curdir)+'/'+folder_name+csv_output, 'w')
 fnames = max
 writer = csv.DictWriter(file, fieldnames = fnames)
 writer.writeheader()

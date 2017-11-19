@@ -1,6 +1,6 @@
-descendants,by,score,id,url,title,time,type
-0,jamuhl,1,15728895,http://www.hypertrends.com/2017/11/localization-using-locize/,Locize promises a Continuous Localization Lifecycle and delivers it with a bang,1511012407,story
-0,rhencke,1,15728887,https://www.theatlantic.com/technology/archive/2015/07/when-you-give-a-tree-an-email-address/398210/?single_page=true,When You Give a Tree an Email Address (2015),1511012095,story
-0,jamuhl,1,15728882,https://github.com/i18next/react-i18next,"Seemless, simple translation for your react app using fast growing react-i18next",1511012007,story
-0,beefhash,1,15728881,https://virtuallyfun.com/2017/11/18/irc-necromancy/,IRC necromancy,1511011998,story
-0,20kleagues,1,15728875,"https://www.google.com/maps/place/The+Museum+of+Modern+Art/@37.7848516,-122.4132499,13.8z/data=!3m1!5s0x89c258fbd5f614c7:0x7edf0a3af8aa9fae!4m5!3m4!1s0x8085807d623572e7:0xc87ca0dcbc7559fd!8m2!3d40.7614327!4d-73.9776216",MoMA NYC on Google Maps Takes You to San Fransico,1511011912,story
+id,time,title,type,score,by,descendants,url
+15733221,1511086862,A Complete Guide to Startup Advisors and Mentors,story,1,FooBarWidget,0,https://medium.com/swlh/a-complete-guide-to-startup-advisors-and-mentors-5d5704dc7e84
+15733205,1511086558,Ask HN: What three programming technologies do you know best?,story,1,hguhghuff,0,
+15733202,1511086526,Y Combinator has quietly cut ties with Peter Thiel,story,1,s_kilk,0,https://www.theverge.com/2017/11/18/16673408/peter-thiel-no-longer-works-with-y-combinator
+15733167,1511085949,HN Meetup Notes: 5 Things Pilots Can Teach Entrepreneurs,story,1,jkuria,0,https://capitalandgrowth.org/articles/438/4-and-a-half-things-entrepreneurs-can-learn-from-p.html?src=nov-hn
+15733163,1511085860,Ask HN: What is the most productive browser extension that you use daily?,story,1,wallzz,0,
