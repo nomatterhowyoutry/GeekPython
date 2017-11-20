@@ -52,7 +52,11 @@ for i in data[:limit]:
     url = 'https://hacker-news.firebaseio.com/v0/item/' + str(i) + '.json?print=pretty'
     response = urlopen(url, timeout=5)
     line = json.loads(response.read().decode('utf8'))
-    data1.append(line)
+    if score:
+        if (score in line.keys()) and (line['score'] >= score):
+            data1.append(line)
+    else:
+        data1.append(line)
     if 'text' in line.keys():
         # Remove useless tags
         line['text'] = untag.sub('', line['text'])

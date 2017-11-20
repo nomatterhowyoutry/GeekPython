@@ -22,3 +22,20 @@
 2017-11-19 12:22:58,478 - main.py - INFO - Getting data from ID's
 2017-11-19 12:23:01,641 - main.py - INFO - Writing into reports.csv
 2017-11-19 12:23:01,642 - main.py - INFO - Application ended up correctly!
+2017-11-19 14:22:40,745 - main.py - INFO - Application started!
+2017-11-19 14:23:10,561 - main.py - INFO - Application started!
+2017-11-19 14:23:24,290 - main.py - INFO - Application started!
+2017-11-19 14:23:24,293 - main.py - INFO - Getting ID's with jobstories tag
+2017-11-19 14:23:25,373 - main.py - INFO - Getting data from ID's
+2017-11-19 14:23:35,551 - main.py - INFO - Writing into reports.csv
+2017-11-19 14:23:35,552 - main.py - INFO - Application ended up correctly!
+2017-11-20 13:40:34,268 - main.py - INFO - Application started!
+2017-11-20 13:40:34,298 - main.py - INFO - Getting ID's with jobstories tag
+2017-11-20 13:40:35,112 - main.py - INFO - Getting data from ID's
+2017-11-20 13:40:49,181 - main.py - INFO - Writing into reports.csv
+2017-11-20 13:40:49,183 - main.py - INFO - Application ended up correctly!
+2017-11-20 13:41:51,655 - main.py - INFO - Application started!
+2017-11-20 13:41:51,658 - main.py - INFO - Getting ID's with jobstories tag
+2017-11-20 13:41:52,304 - main.py - INFO - Getting data from ID's
+2017-11-20 13:42:05,611 - main.py - INFO - Writing into reports.csv
+2017-11-20 13:42:05,616 - main.py - INFO - Application ended up correctly!
