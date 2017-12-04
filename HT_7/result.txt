@@ -1,0 +1,6 @@
+Start of a Session
+Addition: 8
+Multiplication: 6
+Substraction: 8
+Division: 3.0
+End of a Session

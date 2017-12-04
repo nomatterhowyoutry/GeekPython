@@ -52,6 +52,7 @@ for i in data[:limit]:
     url = 'https://hacker-news.firebaseio.com/v0/item/' + str(i) + '.json?print=pretty'
     response = urlopen(url, timeout=5)
     line = json.loads(response.read().decode('utf8'))
+    # filter by score if not False(0)
     if score:
         if (score in line.keys()) and (line['score'] >= score):
             data1.append(line)

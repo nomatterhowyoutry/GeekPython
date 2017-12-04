@@ -39,3 +39,8 @@
 2017-11-20 13:41:52,304 - main.py - INFO - Getting data from ID's
 2017-11-20 13:42:05,611 - main.py - INFO - Writing into reports.csv
 2017-11-20 13:42:05,616 - main.py - INFO - Application ended up correctly!
+2017-11-20 17:02:16,204 - main.py - INFO - Application started!
+2017-11-20 17:02:16,221 - main.py - INFO - Getting ID's with newstories tag
+2017-11-20 17:02:17,121 - main.py - INFO - Getting data from ID's
+2017-11-20 17:02:20,438 - main.py - INFO - Writing into reports.csv
+2017-11-20 17:02:20,441 - main.py - INFO - Application ended up correctly!
