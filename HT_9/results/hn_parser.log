@@ -1,0 +1,61 @@
+2018-01-10 13:51:48,970 - HomeTask9.py - INFO - Application started!
+2018-01-10 13:51:48,970 - HomeTask9.py - INFO - Getting data from ID's
+2018-01-10 13:51:48,971 - HomeTask9.py - INFO - Getting ID's with askstories tag
+2018-01-10 13:52:20,655 - HomeTask9.py - INFO - Writing into pickle file
+2018-01-10 13:52:20,656 - HomeTask9.py - INFO - Getting data from ID's
+2018-01-10 13:52:20,657 - HomeTask9.py - INFO - Getting ID's with showstories tag
+2018-01-10 13:52:48,399 - HomeTask9.py - INFO - Writing into pickle file
+2018-01-10 13:52:48,401 - HomeTask9.py - INFO - Getting data from ID's
+2018-01-10 13:52:48,401 - HomeTask9.py - INFO - Getting ID's with newstories tag
+2018-01-10 13:57:57,484 - HomeTask9.py - INFO - Writing into pickle file
+2018-01-10 13:57:57,491 - HomeTask9.py - INFO - Getting data from ID's
+2018-01-10 13:57:57,491 - HomeTask9.py - INFO - Getting ID's with jobstories tag
+2018-01-10 13:58:09,175 - HomeTask9.py - INFO - Writing into pickle file
+2018-01-10 13:58:09,212 - HomeTask9.py - INFO - Wrapping into html askstories tag data
+2018-01-10 13:58:09,213 - HomeTask9.py - INFO - Wrapping into html showstories tag data
+2018-01-10 13:58:09,217 - HomeTask9.py - INFO - Wrapping into html newstories tag data
+2018-01-10 13:58:09,224 - HomeTask9.py - INFO - Wrapping into html jobstories tag data
+2018-01-10 13:58:09,226 - HomeTask9.py - INFO - Application ended up correctly!
+2018-01-10 14:59:33,890 - HomeTask9.py - INFO - Application started!
+2018-01-10 14:59:52,575 - HomeTask9.py - INFO - Application started!
+2018-01-10 14:59:52,593 - HomeTask9.py - INFO - Wrapping into html askstories tag data
+2018-01-10 14:59:52,596 - HomeTask9.py - INFO - Wrapping into html showstories tag data
+2018-01-10 14:59:52,608 - HomeTask9.py - INFO - Wrapping into html newstories tag data
+2018-01-10 14:59:52,616 - HomeTask9.py - INFO - Wrapping into html jobstories tag data
+2018-01-10 14:59:52,636 - HomeTask9.py - INFO - Application ended up correctly!
+2018-01-10 15:00:26,257 - HomeTask9.py - INFO - Application started!
+2018-01-10 15:00:26,258 - HomeTask9.py - INFO - Wrapping into html askstories tag data
+2018-01-10 15:00:26,260 - HomeTask9.py - INFO - Wrapping into html showstories tag data
+2018-01-10 15:00:26,264 - HomeTask9.py - INFO - Wrapping into html newstories tag data
+2018-01-10 15:00:26,271 - HomeTask9.py - INFO - Wrapping into html jobstories tag data
+2018-01-10 15:00:26,273 - HomeTask9.py - INFO - Application ended up correctly!
+2018-01-10 15:06:55,828 - HomeTask9.py - INFO - Application started!
+2018-01-10 15:06:55,829 - HomeTask9.py - INFO - Wrapping into html askstories tag data
+2018-01-10 15:06:55,831 - HomeTask9.py - INFO - Wrapping into html showstories tag data
+2018-01-10 15:06:55,835 - HomeTask9.py - INFO - Wrapping into html newstories tag data
+2018-01-10 15:06:55,843 - HomeTask9.py - INFO - Wrapping into html jobstories tag data
+2018-01-10 15:06:55,845 - HomeTask9.py - INFO - Application ended up correctly!
+2018-01-10 15:07:56,684 - HomeTask9.py - INFO - Application started!
+2018-01-10 15:07:56,685 - HomeTask9.py - INFO - Wrapping into html askstories tag data
+2018-01-10 15:07:56,686 - HomeTask9.py - INFO - Wrapping into html showstories tag data
+2018-01-10 15:07:56,692 - HomeTask9.py - INFO - Wrapping into html newstories tag data
+2018-01-10 15:07:56,700 - HomeTask9.py - INFO - Wrapping into html jobstories tag data
+2018-01-10 15:07:56,702 - HomeTask9.py - INFO - Application ended up correctly!
+2018-01-10 15:08:53,474 - HomeTask9.py - INFO - Application started!
+2018-01-10 15:08:53,475 - HomeTask9.py - INFO - Wrapping into html askstories tag data
+2018-01-10 15:08:53,477 - HomeTask9.py - INFO - Wrapping into html showstories tag data
+2018-01-10 15:08:53,482 - HomeTask9.py - INFO - Wrapping into html newstories tag data
+2018-01-10 15:08:53,490 - HomeTask9.py - INFO - Wrapping into html jobstories tag data
+2018-01-10 15:08:53,492 - HomeTask9.py - INFO - Application ended up correctly!
+2018-01-10 15:09:31,516 - HomeTask9.py - INFO - Application started!
+2018-01-10 15:09:31,517 - HomeTask9.py - INFO - Wrapping into html askstories tag data
+2018-01-10 15:09:31,518 - HomeTask9.py - INFO - Wrapping into html showstories tag data
+2018-01-10 15:09:31,523 - HomeTask9.py - INFO - Wrapping into html newstories tag data
+2018-01-10 15:09:31,529 - HomeTask9.py - INFO - Wrapping into html jobstories tag data
+2018-01-10 15:09:31,531 - HomeTask9.py - INFO - Application ended up correctly!
+2018-01-10 15:19:42,820 - HomeTask9.py - INFO - Application started!
+2018-01-10 15:19:42,821 - HomeTask9.py - INFO - Wrapping into html askstories tag data
+2018-01-10 15:19:42,823 - HomeTask9.py - INFO - Wrapping into html showstories tag data
+2018-01-10 15:19:42,827 - HomeTask9.py - INFO - Wrapping into html newstories tag data
+2018-01-10 15:19:42,835 - HomeTask9.py - INFO - Wrapping into html jobstories tag data
+2018-01-10 15:19:42,837 - HomeTask9.py - INFO - Application ended up correctly!
